@@ -142,7 +142,6 @@ img {
   letter-spacing: 0.1em;
   color: #000;
   margin-bottom: 35px;
-  /* width: 483px; */
 }
 
 .modal-btn {
@@ -242,10 +241,6 @@ img {
   height: 700px; 
 }
 
-.wrapper-about {
-
-}
-
 .title-about {
   font-family: 'Cormorant';
   font-weight: 400;
@@ -274,3 +269,98 @@ img {
 }
 
 /* ========================</ABOUT>===================== */
+
+
+
+.section-purchase {
+
+}
+
+.purchase-container {
+  display: flex;
+}
+
+.title-purchase {
+  font-family: 'Cormorant';
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.2;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: #000;
+}
+
+.list-left-purchase {
+
+}
+
+.list-right-purchase {
+
+}
+
+.inner-right-purchase {
+  display: flex;
+}
+
+.item-purchase {
+  display: flex;
+  align-items: center;
+  
+}
+
+.images-purchase-backpack {
+
+}
+
+.subtitle-purchase {
+  font-family: 'Cormorant';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.2;
+  /* text-align: center; */
+  letter-spacing: 0.1em;
+  color: #000;
+}
+
+.text-money {
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  color: #000;
+}
+
+.content-purchase {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 160%;
+  letter-spacing: 0.05em;
+  color: #000;
+}
+
+.btn-purchase {
+  font-family: 'Josefin Sans';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: #fff;
+  border: none;
+  background: #292A33;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+.icon-list-purchase {
+  display: flex;
+  align-items: center;
+}
+
+.icon-item-purchase {
+  
+}
+
+.icon-link-purchase {
+  
+}
