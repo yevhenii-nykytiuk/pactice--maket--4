@@ -270,10 +270,11 @@ img {
 
 /* ========================</ABOUT>===================== */
 
-
+/* ========================<PURCHASE>===================== */
 
 .section-purchase {
-
+  padding-top: 90px;
+  padding-bottom: 180px;
 }
 
 .purchase-container {
@@ -288,14 +289,54 @@ img {
   letter-spacing: 0.1em;
   text-transform: capitalize;
   color: #000;
+  text-align: center;
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title-purchase::after {
+  display: block;
+  width: 100px;
+  border: 1px solid #DE1616;
+  margin-top: 10px;
+  content: '';
+  
 }
 
 .list-left-purchase {
-
+  margin-right: 67px;
 }
 
 .list-right-purchase {
 
+}
+
+.wrapper-left-content {
+  padding: 25px 25px;
+  border-top: 1px solid #7F7F7F;
+  border-right: 1px solid #7F7F7F;
+  border-bottom: 1px solid #7F7F7F;
+}
+
+.wrapper-right-content {
+  padding: 25px 25px;
+  border-top: 1px solid #7F7F7F;
+  border-right: 1px solid #7F7F7F;
+  border-bottom: 1px solid #7F7F7F;
+}
+
+.wrapper-list-content {
+  display: flex;
+}
+
+.inner-left-purchase {
+  display: flex;
+}
+
+.inner-purchase-text {
+  text-align: center;
 }
 
 .inner-right-purchase {
@@ -308,10 +349,6 @@ img {
   
 }
 
-.images-purchase-backpack {
-
-}
-
 .subtitle-purchase {
   font-family: 'Cormorant';
   font-weight: 600;
@@ -320,6 +357,7 @@ img {
   /* text-align: center; */
   letter-spacing: 0.1em;
   color: #000;
+  margin-bottom: 47px;
 }
 
 .text-money {
@@ -328,6 +366,7 @@ img {
   line-height: 1;
   letter-spacing: 0.05em;
   color: #000;
+  margin-bottom: 24px;
 }
 
 .content-purchase {
@@ -336,6 +375,7 @@ img {
   line-height: 160%;
   letter-spacing: 0.05em;
   color: #000;
+  margin-bottom: 19px;
 }
 
 .btn-purchase {
@@ -355,12 +395,160 @@ img {
 .icon-list-purchase {
   display: flex;
   align-items: center;
+  margin-left: 49px;
 }
+
 
 .icon-item-purchase {
-  
+  cursor: pointer;
 }
 
-.icon-link-purchase {
-  
+.icon-item-purchase:hover,
+.icon-item-purchase:focus {
+  fill: #DE1616;
 }
+
+.icon-item-purchase:not(:last-child) {
+  margin-right: 26px;
+}
+
+/* ========================</PURCHASE>===================== */
+
+/* ========================<SECTION-BANNER>===================== */
+
+.section-banner {
+  padding-bottom: 130px;
+  background-image: url('../images/section-banner/photo-banner-left.jpg'), url(../images/section-banner/photo-banner-right.jpg);
+  background-repeat: no-repeat;
+  background-position: 87px, 713px;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 40px 0px 40px;
+}
+
+/* .section-photo-banner {
+  
+  background-repeat: no-repeat;
+  background-position:
+} */
+
+.banner-title-left {
+  font-family: 'Cormorant';
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.2;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: #000;
+  margin-bottom: 10px;
+  padding-top: 40px;
+}
+
+.banner-text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0.05em;
+  color: #000000;
+  margin-bottom: 332px;
+  width: 204px;
+}
+
+.banner-btn-left {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #292A33;
+  padding: 14px 28px;
+  border: 1px solid rgba(41, 42, 51, 1);
+  background-color: rgba(41, 42, 51, 0);
+  cursor: pointer;
+}
+
+.wrapper-banner-left {
+
+}
+
+.wrapper-banner-right {
+
+}
+
+.banner-title-right {
+  font-family: 'Cormorant';
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.2;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: #fff;
+  margin-bottom: 366px;
+  width: 232px;
+  padding-top: 40px;
+}
+
+.banner-btn-right {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 14px 28px;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+}
+
+
+/* ========================</SECTION-BANNER>===================== */
+
+/* ========================<SECTION-LATESK>===================== */
+
+.section-latest {
+
+}
+
+.title-latest {
+
+}
+
+.latest-list {
+
+}
+
+.latest-item {
+
+}
+
+.card {
+
+}
+
+.latest-data-text {
+
+}
+
+.latest-img {
+
+}
+
+.latesk-subtitle {
+
+}
+
+.latesk-content-text {
+
+}
+
+.latesk-text-prev {
+
+}
+
+/* ========================</SECTION-LATESK>===================== */
