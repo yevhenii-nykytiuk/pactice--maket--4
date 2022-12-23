@@ -512,27 +512,62 @@ img {
 /* ========================<SECTION-LATESK>===================== */
 
 .section-latest {
-
+  padding-bottom: 180px;
 }
 
 .title-latest {
-
+  font-family: 'Cormorant';
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.2;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 60px;
 }
 
 .latest-list {
-
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -40px;
+  margin-left: -40px;
 }
 
 .latest-item {
-
+  margin-top: 40px;
+  margin-left: 40px;
+  flex-basis: calc(100% / 3 - 40px);
 }
 
 .card {
+  background-color: #fff;
+  cursor: pointer;
+}
 
+.card:hover {
+  box-shadow: 0px 6px 34px rgba(0, 0, 0, 0.15);
 }
 
 .latest-data-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #7F7F7F;
+  writing-mode: vertical-lr;
+}
 
+.inner-content-text {
+  margin-left: auto;
+  width: 318px;
+  padding: 0px 20px 0px 0px;
+}
+
+.inner-vertical-text {
+  display: flex;
+  align-items: center;
 }
 
 .latest-img {
@@ -540,15 +575,38 @@ img {
 }
 
 .latesk-subtitle {
-
+  font-family: 'Cormorant';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  /* text-align: center; */
+  letter-spacing: 0.1em;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 10px;
+  
 }
 
 .latesk-content-text {
-
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #000000;
+  margin-bottom: 10px;
 }
 
 .latesk-text-prev {
-
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  text-decoration-line: underline;
+  text-transform: capitalize;
+  color: #000000;
+  text-align: right;
+  padding-bottom: 20px;
+  
 }
 
 /* ========================</SECTION-LATESK>===================== */
