@@ -24,6 +24,7 @@ ul {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 .list {
@@ -523,8 +524,18 @@ img {
   letter-spacing: 0.1em;
   text-transform: capitalize;
   color: #000000;
-  text-align: center;
   margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title-latest::after {
+  margin-top: 10px;
+  width: 100px;
+  border: 1px solid #DE1616;
+  display: block;
+  content: '';
 }
 
 .latest-list {
@@ -543,6 +554,7 @@ img {
 .card {
   background-color: #fff;
   cursor: pointer;
+  height: 466px;
 }
 
 .card:hover {
@@ -606,7 +618,96 @@ img {
   color: #000000;
   text-align: right;
   padding-bottom: 20px;
-  
+
 }
 
+
 /* ========================</SECTION-LATESK>===================== */
+
+
+
+
+.container-module-5 {
+  height: 1000px;
+  outline: 1px solid rgb(175, 1, 1);
+}
+
+.wrapper-cintainer {
+  position: relative;
+  /* display: flex;
+  height: 500px;
+  justify-content: center;
+  align-items: center; */
+  outline: 1px solid orange;
+}
+
+.box {
+  width: 500px;
+  cursor: pointer;
+}
+
+.green {
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  background-color: green;
+
+  transition: transform 2000ms ease;
+}
+
+.red {
+  width: 60px;
+  height: 60px;
+  background-color: red;
+
+  transition: transform 2000ms ease-in;
+}
+
+.white {
+  width: 70px;
+  height: 70px;
+  background-color: rgb(3, 255, 251);
+
+  transition: transform 2000ms ease-out;
+}
+
+.black {
+  width: 80px;
+  height: 80px;
+  background-color: black;
+  transition: transform 2000ms ease-in-out;
+}
+
+.blue {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+  /* transition: transform 2000ms ease;
+}
+
+.blue:hover {
+  transform: translate(500px);
+}
+
+.box:hover:nth-child(1) {
+  transform: translate(100px);
+}
+
+.box:hover:nth-child(2) {
+  transform: translate(100px);
+}
+
+.box:hover:nth-child(3) {
+  transform: translate(100px);
+}
+
+.box:hover:nth-child(4) {
+  transform: translate(100px);
+} */
+
+
+
+
