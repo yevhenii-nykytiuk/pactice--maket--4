@@ -471,14 +471,6 @@ img {
   cursor: pointer;
 }
 
-.wrapper-banner-left {
-
-}
-
-.wrapper-banner-right {
-
-}
-
 .banner-title-right {
   font-family: 'Cormorant';
   font-weight: 400;
@@ -625,89 +617,215 @@ img {
 /* ========================</SECTION-LATESK>===================== */
 
 
+/* ========================<FORM-REGISTER>===================== */
 
 
-.container-module-5 {
-  height: 1000px;
-  outline: 1px solid rgb(175, 1, 1);
+.section-form-register {
+  padding-bottom: 90px;
 }
 
-.wrapper-cintainer {
-  position: relative;
-  /* display: flex;
-  height: 500px;
-  justify-content: center;
-  align-items: center; */
-  outline: 1px solid orange;
+
+.wrapper-content-register {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #333333;
+  margin-bottom: 90px;
 }
 
-.box {
-  width: 500px;
+.inner-content-register {
+  border-right: 1px solid #333333;
+  background-color: #fff;
+  padding: 40px 66px 40px 40px;
+}
+
+.title-form-register {
+  font-family: 'Cormorant';
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.2;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.text-form-register {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0.05em;
+  color: #000000;
+  margin-bottom: 32px;
+  width: 204px;
+}
+
+.btn-form-register {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 14px 28px;
   cursor: pointer;
+  color: #292A33;
+  background-color: rgba(41, 42, 51, 0);
+  border: 1px solid #292A33
 }
 
-.green {
-  top: 0;
-  left: 0;
-  width: 50px;
-  height: 50px;
-  background-color: green;
-
-  transition: transform 2000ms ease;
+.wrapper-down-content-register {
+  text-align: center;
 }
 
-.red {
-  width: 60px;
-  height: 60px;
-  background-color: red;
-
-  transition: transform 2000ms ease-in;
+.subject-down-form-register {
+  font-family: 'Cormorant';
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.2;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: #000000;
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
-.white {
-  width: 70px;
-  height: 70px;
-  background-color: rgb(3, 255, 251);
-
-  transition: transform 2000ms ease-out;
-}
-
-.black {
-  width: 80px;
-  height: 80px;
-  background-color: black;
-  transition: transform 2000ms ease-in-out;
-}
-
-.blue {
+.subject-down-form-register::after {
+  content: '';
+  display: block;
+  border: 1px solid #DE1616;
   width: 100px;
-  height: 100px;
-  background-color: blue;
+  margin-top: 10px;
 }
 
-  /* transition: transform 2000ms ease;
+.text-down-form-register {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #000000;
+  margin-bottom: 20px;
 }
 
-.blue:hover {
-  transform: translate(500px);
+.form-register-input {
+  border-width: 1px 0px 1px 1px;
+  border: 1px solid #292A33;
+  width: 387px;
+  height: 46px;
 }
 
-.box:hover:nth-child(1) {
-  transform: translate(100px);
+.btn-form-regist-submit {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #FFFFFF;
+  padding: 14px 28px;
+  background-color: #292A33;
+  border: none;
 }
 
-.box:hover:nth-child(2) {
-  transform: translate(100px);
+/* ========================</FORM-REGISTER>===================== */
+
+
+/* ========================<SECTION-FOOTER>===================== */
+.section-footer {
+  border-top: 1px solid #7F7F7F;
 }
 
-.box:hover:nth-child(3) {
-  transform: translate(100px);
+.footer-container {
+  display: flex;
+  justify-content: space-between;
 }
 
-.box:hover:nth-child(4) {
-  transform: translate(100px);
-} */
+.footer-list-column-one {
+
+}
+
+.logo-footer {
+  
+}
+
+.logo-img-footer {
+  padding-top: 25px;
+  margin-bottom: 44px;
+}
+
+.footer-title-item {
+  margin-bottom: 40px;
+}
+
+.footer-text{
+  width: 179px;
+}
+
+.social-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.social-link {
+  margin-right: 12px;
+}
+
+.social-icon-link {
+  
+}
+
+.social-address {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  color: #292A33;
+  
+}
+
+.footer-subtitle {
+  font-family: 'Cormorant';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: #292A33;
+  padding-top: 25px;
+}
+
+.footer-list-item {
+  margin-bottom: 22px;
+}
+
+.footer-list-link {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #292A33;
+}
+
+.footer-list-column-two {
+
+}
+
+.footer-list-column-three {
+
+}
+
+.footer-address {
+
+}
 
 
 
 
+
+
+
+/* ========================</SECTION-FOOTER>===================== */
